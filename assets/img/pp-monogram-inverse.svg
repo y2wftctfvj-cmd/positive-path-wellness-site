@@ -1,5 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Positive Path monogram">
-  
-  <path d="M10 8 H24 C31 8 36 13 36 20 C36 27 31 32 24 32 H22 V56 H10 Z M22 14 H24 C27 14 30 17 30 20 C30 23 27 26 24 26 H22 Z" fill="#F9F7F2" fill-rule="evenodd"/>
-  <path d="M28 8 H42 C49 8 54 13 54 20 C54 27 49 32 42 32 H40 V56 H28 Z M40 14 H42 C45 14 48 17 48 20 C48 23 45 26 42 26 H40 Z" fill="#B8956B" fill-rule="evenodd"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-label="Positive Path monogram">
+  <!-- First P - Sand/cream color for dark background -->
+  <path d="M4 4 H16 C24 4 28 9 28 16 C28 23 24 28 16 28 H14 V44 H4 Z M14 10 V22 H16 C20 22 22 19 22 16 C22 13 20 10 16 10 Z" fill="#F9F7F2" fill-rule="evenodd"/>
+  <!-- Second P - Clay color, offset and overlapping -->
+  <path d="M20 4 H32 C40 4 44 9 44 16 C44 23 40 28 32 28 H30 V44 H20 Z M30 10 V22 H32 C36 22 38 19 38 16 C38 13 36 10 32 10 Z" fill="#B8956B" fill-rule="evenodd"/>
 </svg>
