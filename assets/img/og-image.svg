@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <radialGradient id="g" cx="35%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F9F7F2"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#g)"/>
+  <!-- subtle rings -->
+  <g fill="none" stroke="#1A2E26" opacity="0.10">
+    <circle cx="870" cy="315" r="260" stroke-width="2"/>
+    <circle cx="870" cy="315" r="190" stroke-width="2" stroke-dasharray="10 10"/>
+    <circle cx="870" cy="315" r="120" stroke-width="2" stroke-dasharray="6 12"/>
+  </g>
+
+  <!-- mark -->
+  <g transform="translate(96,120)">
+    <rect width="96" height="96" rx="26" fill="#1A2E26"/>
+    <g transform="translate(16,16) scale(1)">
+      <path fill="#F9F7F2" fill-rule="evenodd" d="M14 12 H30 C40 12 40 34 30 34 H20 V52 H14 Z M20 18 H29 C33 18 33 28 29 28 H20 Z"/>
+      <path fill="#B8956B" opacity="0.95" fill-rule="evenodd" d="M28 12 H44 C54 12 54 34 44 34 H34 V52 H28 Z M34 18 H43 C47 18 47 28 43 28 H34 Z"/>
+    </g>
+  </g>
+
+  <!-- typography (system font fallback) -->
+  <text x="96" y="290" fill="#1A2E26" font-family="Georgia, 'Cormorant Garamond', serif" font-size="72" font-weight="500">
+    Positive Path
+  </text>
+  <text x="96" y="360" fill="#B8956B" font-family="Georgia, 'Cormorant Garamond', serif" font-size="72" font-style="italic" font-weight="500">
+    Wellness
+  </text>
+  <text x="96" y="430" fill="#4A4A4A" font-family="Inter, system-ui, -apple-system, Segoe UI, Arial, sans-serif" font-size="30" font-weight="400">
+    Integrative Behavioral Medicine • Huntington, NY
+  </text>
+  <text x="96" y="482" fill="#4A4A4A" font-family="Inter, system-ui, -apple-system, Segoe UI, Arial, sans-serif" font-size="22" opacity="0.9">
+    Establishment subject to NYS OMH approval. No medical services are currently provided.
+  </text>
+</svg>
